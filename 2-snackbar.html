@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/goit-advancedjs-hw-03/assets/favicon-ZntwX3ss.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-2. Snackbar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400..600&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/goit-advancedjs-hw-03/2-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-03/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-A92OCY9B.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-CUZofXIC.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/styles-Woepjz_A.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a class="nav-logo" href="./index.html" aria-label="Site logo">
+            <img
+              src="/goit-advancedjs-hw-03/assets/logo-CWKflIk4.svg"
+              alt="GoIt logo"
+              class="nav-logo-icon"
+              width="100"
+              height="30"
+            />
+          </a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="./1-timer.html">Timer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./2-snackbar.html">Snackbar</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <a class="back-link" href="./index.html">Go back</a>
+        <form class="form">
+          <label class="delay-lable">
+            Delay (ms)
+            <input class="delay-input" type="number" name="delay" required />
+          </label>
+
+          <fieldset class="snackbar-form-fieldset">
+            <legend class="snackbar-form-legend">State</legend>
+            <label class="state-lable">
+              <input
+                type="radio"
+                name="state"
+                value="fulfilled"
+                required
+              />
+              <span class="state-icon">
+                <svg width="12" height="12">
+                  <use href="/goit-advancedjs-hw-03/assets/symbol-defs-CTi7ofM-.svg#icon-checked"></use>
+                </svg>
+              </span>
+              Fulfilled
+            </label>
+            <label class="state-lable">
+              <input
+                type="radio"
+                name="state"
+                value="rejected"
+                required
+              />
+              <span class="state-icon">
+                <svg width="12" height="12">
+                  <use href="/goit-advancedjs-hw-03/assets/symbol-defs-CTi7ofM-.svg#icon-checked"></use>
+                </svg>
+              </span>
+              Rejected
+            </label>
+          </fieldset>
+
+          <button class="snackbar-btn" type="submit">
+            Create notification
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-desc">
+          <a
+            class="main-title-link"
+            href="https://github.com/goitacademy/vanilla-app-template"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Template
+          </a>
+          made with ✨ by
+          <a
+            class="footer-link"
+            href="https://goit.global/ua/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GoIT team
+          </a>
+        </p>
+      </div>
+    </footer>
+
+  </body>
+</html>
