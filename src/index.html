@@ -2,10 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Advanced JS. HW-2.</title>
-    
+    <title>Advanced JS. HW-3.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400..600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -21,44 +26,32 @@
               height="30"
             />
           </a>
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a class="nav-link" href="./1-timer.html"
-                >Timer</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./2-snackbar.html"
-                >Snackbar</a
-              >
-            </li>
-          </ul>
+          <div class="header-title">
+            <p class="header-title-gradient">Advanced JS. HW-3.</p>
+            <p class="header-text">HTTP requests. Interaction with Backend.</p>
+          </div>
         </nav>
       </div>
     </header>
     <main>
       <section class="main-page">
         <div class="container">
-          <h1 class="main-title">
-            <span class="main-title-gradient">Advanced JS. HW-2.</span>
-            Timing Events and Date. JavaScript Promise.
-          </h1>
+          <form class="search-form">
+            <input
+              class="search-input"
+              type="text"
+              name="searchQuery"
+              autocomplete="off"
+              placeholder="Search images..."
+            />
+            <button class="search-button" type="submit">Search</button>
+          </form>
+          <!-- <div class="loader-wraper"></div> -->
+          <div class="gallery"></div>
+          <!-- <button type="button" class="load-more">Load more</button> -->
         </div>
+        
       </section>
-      <article class="badges">
-        <div class="container">
-          <ul class="badges-list">
-            <li class="badges-item">
-              <a class="badges-link" href="./1-timer.html">
-                Task-1. Timer
-              </a>
-            </li>
-            <li class="badges-item">
-              <a class="badges-link" href="./2-snackbar.html"> Task-2. Snackbar </a>
-            </li>
-          </ul>
-        </div>
-      </article>
     </main>
     <footer class="footer">
       <div class="container">
@@ -83,5 +76,6 @@
         </p>
       </div>
     </footer>
+    <script src="main.js" type="module"></script>
   </body>
 </html>
