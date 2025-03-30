@@ -1,10 +1,10 @@
-.search-form {
+.form {
   font-family: var(--text-font-family);
   display: flex;
   gap: 8px;
 }
 @media only screen and (min-width: 768px) {
-  .search-form {
+  .form {
     margin-left: calc(50% - 371px / 2);;
   }
 }
