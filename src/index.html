@@ -36,7 +36,7 @@
     <main>
       <section class="main-page">
         <div class="container">
-          <form class="search-form">
+          <form class="form">
             <input
               class="search-input"
               type="text"
@@ -46,9 +46,10 @@
             />
             <button class="search-button" type="submit">Search</button>
           </form>
-          <!-- <div class="loader-wraper"></div> -->
-          <div class="gallery"></div>
-          <!-- <button type="button" class="load-more">Load more</button> -->
+          <ul class="gallery"></ul>
+          <div class="loader-wraper" hidden>
+            <span class="loader"></span>
+          </div>
         </div>
         
       </section>
@@ -76,6 +77,6 @@
         </p>
       </div>
     </footer>
-    <script src="main.js" type="module"></script>
+    <script src="./main.js" type="module"></script>
   </body>
 </html>
