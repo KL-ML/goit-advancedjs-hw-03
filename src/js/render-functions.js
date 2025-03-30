@@ -40,7 +40,7 @@ function renderGallery(images) {
     )
     .join('');
   gallery.insertAdjacentHTML('beforeend', markup);
-  new SimpleLightbox('div.gallery a', {
+  new SimpleLightbox('ul.gallery a', {
     captionsData: 'alt',
     captionDelay: 250,
   }).refresh();
