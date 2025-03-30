@@ -12,7 +12,7 @@ import {
   resetLoader,
 } from './js/render-functions';
 
-const searchForm = document.querySelector('.search-form');
+const searchForm = document.querySelector('.form');
 
 populateInputData(searchForm);
 
